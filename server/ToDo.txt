@@ -1,0 +1,21 @@
+To do
+- uncomment email notification when submitting a movie
+-movie submssion poster url
+-accounts with admin privileges and  .show admin button for only admin?
+
+-2.6.15	Browse the featured movies slide show
+- View the top-rated movies (SEARCH SORT)
+- Liking/disliking a comment or a thread 
+- Viewing user stats 
+
+
+2.4.2	Create a Movie Page 
+MovieSubmission.jsx
+
+--new submssion
+submit(e)
+
+--edit submission
+user recieves data from profile page in 
+location.state.item
+//const location = useLocation();

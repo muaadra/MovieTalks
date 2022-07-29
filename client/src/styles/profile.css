@@ -1,0 +1,163 @@
+#profile-content-parent {
+    display: flex;
+    min-height: 80vh;
+    background-color: #f6f6f6;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch
+}
+
+
+#settings-bar {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#profile-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#left-section {
+    width: 20rem;
+}
+
+#delete-account {
+    margin-top: 0.5rem;
+}
+
+#usrprofile-edit-top {
+    display: flex;
+    align-items: center;
+}
+
+#user-profile-stat {
+    list-style-type: none;
+    padding-left: 0;
+    flex-grow: 1;
+}
+
+#user-profile-stat>li {
+    margin-bottom: 0.5rem;
+}
+
+#upload-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userprofile-img {
+    width: 7rem;
+    height: 7rem;
+    padding-bottom: 0.25rem;
+    border-radius: 50%;
+    border: #e5e5e5 solid 0.1rem;
+    object-fit: cover;
+}
+
+.userprofile-container {
+    margin: 0.25rem 2rem 1rem 2rem;
+    padding: 1rem;
+    background-color: #F9F9F9;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+}
+
+
+#usrprofile-edit-top {
+    display: flex;
+}
+
+#userprogile-aboutme {
+    flex-grow: 1;
+    padding: 1rem;
+    min-height: 5rem;
+}
+
+#userprogile-aboutme-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.movie-submission-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.movie-submission-cont>input {
+    width: 50%;
+}
+
+#userprofile-aboutme-edit {
+    padding-top: 0.25rem;
+    text-align: end;
+}
+
+.hide {
+    display: none;
+}
+
+#profile-nav {
+    margin: 0.75rem 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#delete-account-input-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+#upload-poster {
+    width: fit-content;
+}
+
+.submit-movie-button {
+    width: fit-content;
+    align-self: center;
+
+}
+
+#profile-page-right-buttons {
+    display: flex;
+}
+
+#profile-page-right-buttons>div {
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 590px) {
+    .movie-submission-cont>input {
+        width: auto;
+    }
+
+    #profile-page-right-buttons {
+        flex-direction: column;
+    }
+
+    #profile-page-right-buttons>div {
+        margin-left: 0.25rem;
+        margin-bottom: 0.15rem;
+    }
+
+    .userprofile-container {
+        margin: 0.25rem;
+        margin-left: 0.5rem;
+        padding: 1rem;
+        background-color: #F9F9F9;
+        border-radius: 0.2rem;
+        border: 1px solid gray;
+    }
+}
+
+#movie-submission-error-text {
+    color: #DD0000;
+}

@@ -1,0 +1,126 @@
+/**
+ * This file contains style used in the "sign in/up" forms 
+ * (i.e, the authentication forms)
+ *
+ * @author Muaad Alrawhani, B00538563
+ */
+
+/* the shade befind the form */
+.overlay-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.73);
+    pointer-events: all;
+    z-index: 5;
+}
+
+/* the alert (feedback) message */
+.alert {
+    background-color: #ffdbde;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: #b84750 solid 1px;
+    white-space: pre-wrap
+}
+
+
+/* the sign-in/up container */
+#sign-in-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* the sign-in/up form */
+#sign-in-form {
+    display: flex;
+    margin: auto;
+    width: 15rem;
+    padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 0.5rem;
+    background-color: rgb(247, 253, 254);
+    z-index: 110;
+    pointer-events: auto;
+}
+
+/* style elements in the form */
+#sign-in-form,
+#sign-in-form>form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-in-form>form>* {
+    display: flex;
+    flex-direction: column;
+    margin: 0.35rem;
+    flex-grow: 1;
+}
+
+/* style input fields */
+#sign-in-form>form input {
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+    margin-top: 0.25rem;
+    border: grey 1px solid;
+}
+
+/* style buttons */
+#sign-in-up-buttons {
+    display: flex;
+    border-bottom: grey 1px solid;
+    margin-bottom: 0.25rem;
+}
+
+#sign-in-up-buttons>* {
+    flex-grow: 1;
+    margin: 0.35rem;
+}
+
+/* a class to hide element in form */
+.display-none {
+    display: none;
+}
+
+/* close window button */
+.close-window {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 0.35rem;
+    cursor: pointer;
+    border-bottom: grey 1px solid;
+}
+
+/* make place holder disapear when not focused */
+input:focus::placeholder {
+    color: transparent;
+}
+
+/* style forgot password link */
+#forgot-password {
+    all: unset;
+    margin-top: 0.5rem;
+    font-size: small;
+    color: rgb(11, 53, 190);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* forgot password instructions */
+.sign-in-instructions {
+    all: unset;
+    border: 1px green dashed;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: rgb(227, 254, 227);
+    color: rgb(3, 61, 3);
+}

@@ -1,0 +1,9 @@
+#pageNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nextPage {
+    margin-left: 1rem;
+}

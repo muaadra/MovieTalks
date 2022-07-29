@@ -1,0 +1,95 @@
+#header-container {
+    display: flex;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #2D74B6;
+    border-bottom: 0.5rem solid #183D63;
+    border-radius: 0 0 1rem 1rem;
+}
+
+#watchlist-button {
+    margin-right: 0.5rem;
+}
+
+#header-mid {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+#logo {
+    height: 64px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#greeting {
+    padding: 0 1rem 0 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#burger-menu {
+    display: none
+}
+
+#watchlist-mobile-button-cont {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+    box-shadow: 3px 3px 3px rgb(234, 234, 234);
+}
+
+#profile-header-img {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+#burger-button-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    #greeting {
+        color: white;
+        margin-right: 0.2rem;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #watchlist-button {
+        display: none;
+    }
+
+    #burger-button-mobile {
+        display: flex;
+        margin-left: 0.75rem;
+    }
+
+    #burger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

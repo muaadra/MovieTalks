@@ -1,0 +1,41 @@
+<!-- Refrence:
+this tutorial was followed to generate this site map. 
+URL : https://www.seerinteractive.com/blog/how-to-create-and-submit-a-xml-sitemap/
+title of tutorial: HOW TO CREATE AND SUBMIT A XML SITEMAP by HOA CONG
+Date: May 8, 2020
+Date Accessed: June 6, 2022
+ -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://ec2-54-242-106-30.compute-1.amazonaws.com/</loc>
+    <lastmod>2022-06-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+   <url>
+    <loc>http://ec2-54-242-106-30.compute-1.amazonaws.com/moviePage/*</loc>
+    <lastmod>2022-06-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+   <url>
+    <loc>http://ec2-54-242-106-30.compute-1.amazonaws.com/searchResults/</loc>
+    <lastmod>2022-06-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+   <url>
+    <loc>http://ec2-54-242-106-30.compute-1.amazonaws.com/thread/*</loc>
+    <lastmod>2022-06-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+   <url>
+    <loc>http://ec2-54-242-106-30.compute-1.amazonaws.com/searchAllByFilters</loc>
+    <lastmod>2022-06-16</lastmod>
+    <priority>1.0</priority>
+  </url>
+</urlset>

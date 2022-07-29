@@ -1,0 +1,21 @@
+.admin-delete-post {
+    display: flex;
+    justify-content: end;
+}
+
+.admin-delete-post>div {
+    margin-left: 1rem;
+}
+
+#Submitted-Movies-Admin {
+    margin-bottom: 1rem;
+}
+
+.admin-movie-submissions-list-item {
+    display: flex;
+    justify-content: end;
+}
+
+.admin-movie-submissions-list-item>div {
+    margin-left: 1rem;
+}

@@ -1,0 +1,133 @@
+#search-bar-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-bar-main-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#movies-using-filters {
+    margin-top: 0.5rem;
+}
+
+#search-bar-container {
+    border: grey 1px solid;
+    display: flex;
+    flex-direction: row;
+    min-width: 30vw;
+    border-radius: 20rem;
+    padding-left: 1rem;
+    margin: 0;
+    margin-right: 2.25rem;
+    background-color: white;
+}
+
+#search-bar {
+    flex-grow: 1;
+    border: none;
+    margin: 0;
+}
+
+#search-button {
+    display: flex;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-left: 1px solid grey;
+    background-color: #F9F9F9;
+    border-radius: 0 20rem 20rem 0;
+    padding-right: 0.75rem;
+}
+
+
+#search-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25rem 2rem 0 2rem;
+}
+
+#pageNumber {
+    flex: 1;
+    text-align: right;
+    margin-right: 2.25rem;
+    margin-bottom: 0.25rem;
+    align-self: center;
+}
+
+.search-demo-container {
+    margin: 0.6rem 2rem 1rem 2rem;
+    padding: 1rem;
+    background-color: #F9F9F9;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+}
+
+.pop-window-container {
+    margin: 0.25rem 0rem 0rem 0rem;
+    padding: 1rem;
+    background-color: #F9F9F9;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+}
+
+#genre-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.filter-checkbox-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+
+.filter-checkbox-row>div {
+    flex-grow: 1;
+}
+
+#find-by-filter {
+    margin-top: 0.25rem;
+    width: fit-content;
+    justify-self: end;
+}
+
+.filter-small-input {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding: 0.4rem;
+    max-width: 7rem;
+}
+
+#filter-year-released {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+#search-bar-mobile {
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+    #search-bar-main-container {
+        display: none;
+    }
+
+    #genre-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pop-window-container {
+        margin: 0.25rem 0rem 0rem 0rem;
+        padding: 0.25rem 0 0.25rem 0;
+    }
+
+    .search-demo-container {
+        margin: 0.6rem 0.25rem 1rem 0.25rem;
+        padding: 0.5rem;
+    }
+
+}

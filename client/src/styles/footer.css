@@ -1,0 +1,23 @@
+#footer {
+    min-height: 3rem;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #183D63;
+    color: white;
+    height: min-content;
+    padding: 1rem 0 0rem 2rem;
+}
+
+#footer-refrences {
+    margin-bottom: 0.25rem;
+    color: white;
+}
+
+.ref-list>ul {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}

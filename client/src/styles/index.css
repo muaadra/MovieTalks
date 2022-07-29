@@ -1,0 +1,157 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#body-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  justify-content: center;
+  margin: auto;
+  box-shadow: #adadad 0 0 0.2rem;
+}
+
+h1 {
+  all: unset;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+h2 {
+  all: unset;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+.component-title {
+  display: flex;
+  font-size: large;
+  align-items: center;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+
+.button {
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  border: none;
+  margin: 0.5rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.loading {
+  background-color: rgba(255, 255, 255, 0.382);
+  min-height: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00000066;
+}
+
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.padding-small {
+  padding: 0.25rem;
+}
+
+.blue {
+  background-color: #1380f5;
+}
+
+.link-style {
+  color: #1380f5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #1dac3c;
+}
+
+.blueA {
+  background-color: #1d5dac;
+}
+
+.transpa {
+  background-color: transparent;
+}
+
+.shade:hover {
+  background-color: #FFD027;
+  color: black;
+}
+
+.shade {
+  background-color: rgba(0, 0, 0, 0.481)
+}
+
+.grey {
+  background-color: #adadad;
+}
+
+.light-grey {
+  background-color: #dbdbdb;
+}
+
+.warning {
+  background-color: #df4588;
+}
+
+.yellow {
+  background-color: #FFD027;
+  color: black;
+}
+
+#footer>p {
+  margin: 0.1rem 0rem 0.1rem 1rem;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0.75rem;
+  border: 1px dashed rgb(185, 185, 185);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+input,
+textarea,
+select {
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  margin-top: 0.25rem;
+  border: grey 1px solid;
+  font-size: 1rem;
+}
+
+#website-logo-text {
+  color: white;
+  margin-left: 1.75rem;
+  font-size: 1.75rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
