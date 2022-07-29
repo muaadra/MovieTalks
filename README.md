@@ -1,10 +1,10 @@
 # MovieTalks
 Description: MovieTalks is a project for advanced web development course. MovieTalks allows users to search, rate, and discuss movies and TV shows. There are only 270 movies in the project, all movie data are from IMDB.com (using imdb-api.com). The data are stored locally in a MongoDB database, and are used as placeholder and for demonstration purposes only
 
-To view a sample of my work, please refer to the following files:
+## To view a sample of my work, please refer to the following files:
 The project is divided into 2 main folders: client and server
 
-## Client Files
+**Client Files:**\
 **Folder name: authentication**\
     Path to folder: client\src\components\authentication\
 
@@ -20,7 +20,7 @@ Path to folder: \client\src\styles\
   - **Files:**
     - signIn.css
 
-## Server Files
+**Server Files:**\
 **Folder name: routes**\
 Path to folder: \server\routes\
   - **Files:**
